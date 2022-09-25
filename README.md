@@ -16,10 +16,10 @@ A ideia é que o administrador perca seu poder na distribuição de informação
 
 # O que será Implementado? 
 
-O ínicio da rede com 5 postagens, uma postagem vai ser descartada e o usuário leitor vai fazer uma busca pela rede por palavra chave
-Um usuário sem reps tentará fazer uma postagem, mas não entrará na rede por conta do freechains
-Cinco usuários vão postar informações importantes no repositório (Todas elas vão ser validadas pelo autor)
-Um Disseminador tentará criar um conteúdo duplicado, porém os outros disseminadores/administradores irão impedir o conteúdo de aparecer no repositorio com os dislikes
-O leitor fará uma busca pelas seguintes palavras: GINGER, But, Drama e string vazia, para conseguir seus resultados. Após ele verificar se ele encontrou o filme, ele pode simplesmente baixar, já que os links foram validados pelos administradores do fórum.
-
-É importante lembrar que o leitor não precisará estar 'logado', basta ter uma conexão com algum nó da rede.
+O ínicio da rede com 5 postagens, uma postagem vai ser descartada e o usuário leitor vai fazer uma busca pela rede por palavra chave <br />
+Um usuário sem reps tentará fazer uma postagem, mas não entrará na rede por conta do freechains <br />
+Cinco usuários vão postar informações importantes no repositório (Todas elas vão ser validadas pelo autor) <br />
+Um Disseminador tentará criar um conteúdo duplicado, porém os outros disseminadores/administradores irão impedir o conteúdo de aparecer no repositorio com os dislikes <br />
+O leitor fará uma busca pelas seguintes palavras: GINGER, But, Drama e string vazia, para conseguir seus resultados. Após ele verificar se ele encontrou o filme, ele pode simplesmente baixar, já que os links foram validados pelos administradores do fórum. <br />
+ <br />
+É importante lembrar que o leitor não precisará estar 'logado', basta ter uma conexão com algum nó da rede. <br />
