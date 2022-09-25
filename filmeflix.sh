@@ -1,6 +1,4 @@
 rm -rf /tmp/myhost
-rm -rf /tmp/othost
-rm -rf /tmp/anotherhost
 
 
 gnome-terminal -- freechains-host start /tmp/myhost
