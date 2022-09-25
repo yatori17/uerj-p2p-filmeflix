@@ -17,6 +17,7 @@ A ideia é que o administrador perca seu poder na distribuição de informação
 # O que será Implementado? 
 
 O ínicio da rede com 5 postagens, uma postagem vai ser descartada e o usuário leitor vai fazer uma busca pela rede por palavra chave <br />
+O Administrador vai validar as 5 postagens com o like, assim garantindo reps para os usuários<br />
 Um usuário sem reps tentará fazer uma postagem, mas não entrará na rede por conta do freechains <br />
 Cinco usuários vão postar informações importantes no repositório (Todas elas vão ser validadas pelo autor) <br />
 Um Disseminador tentará criar um conteúdo duplicado, porém os outros disseminadores/administradores irão impedir o conteúdo de aparecer no repositorio com os dislikes <br />
