@@ -4,21 +4,22 @@ Filmes estrangeiros e independentes têm alguns problemas em relação a:
 Falta de informação na internet sobre eles, como sinopse, elenco, entre outros;
 Falta de acessibilidade a algum site onde você pode fazer o download, ou até mesmo onde você poderia encontrar em algum aplicativo. <br />
 
-1 - O objetivo da aplicação é servir de um repositório de informações sobre o filme, tais quais onde você pode encontrar de forma gratuita e as informações do filme em específico, um usuário poderá buscar informações dentro desse sistema como: Nome do filme, busca por gênero e entre outros. <br />
-2- De forma a garantir segurança para os usuários, e se as informações estão corretas, eles vão precisar de uma permissão para poderem criar e espalhar informações nesse repositório, algo que o freechains já tem implementado. A outra funcionalidade é a validação dessas informações. Por exemplo, um usuário postou um link quebrado, essa publicação vai ganhar dislikes até ela ser ocultada do bloco, ou seja, deixando a rede segura, outro ponto são os likes que uma informação  pode ganhar de acordo com o seu conteúdo, link e qualidade. É de interesse de todos os usuários que a rede seja segura. <br />
-3 - Após a criação desse repositório, a chave para entrar nele será espalhada pela internet para que outras pessoas possam se conectar. Irão ter três tipos de usuários: <br />
-O usuário leitor: esse só precisa ler o conteúdo do repositório, e não tem impacto nenhum nesse repositório, então ele não vai precisar ter reputação para conseguir essas informações. <br />
-O usuário criador/administrador: esse usuário é o que tem mais comando na distribuição de informações, ele que vai verificar os usuários que estão passando as informações corretas sobre o fórum, entre outras coisas (A aceitação do usuário acontece por meio de ‘like’/’dislike’ em alguma publicação. A ideia é que os disseminadores validem as informações dos sites para não ocorrer problemas. <br />
-Disseminador: para esse usuário poder disseminar informações sobre esses filmes, é necessário que alguma postagem dele tenha sido aceita pelo administrador, e após isso ele poderá postar de acordo com a sua reputação. Esse usuário também pode validar as informações de outros usuários com likes e dislikes.  <br />
+## Rodando a aplicação
 
-A ideia é que o administrador perca seu poder na distribuição de informação e esse poder vá para os disseminadores de informações. Outra regra importante é que um disseminador pode se tornar um usuário leitor de acordo com a validação de suas postagens.
+<p> Para executar a aplicação: primeiro, execute o código ./filmeflix.sh para preencher o repositório com dados.</p>
 
 
-# O que será Implementado? 
+Após preencher o repositŕio com os dados disponíveis para a utilização, após isso rodar o arquivo ./findFilmeFlix.sh que tem como objetivo simular o comando implementado da rede!
 
-Para reproduzir a aplicação, basta rodar o comando ./filmeflix.sh para dar inicio na rede e após isso rodar o arquivo ./findFilmeFlix.sh que tem como objetivo simular o comando implementado da rede! <br />
-OBS.: O resultado do comando se encontra nesse repositório <br />
+### O que foi implementado
 
+<p> A aplicação rodará sobre o freechains, ou seja, ela usará o freechains como seu repositório. Para essa implementação, apenas o comando findinfilmeflix foi implementado. O objetivo dele é fazer uma busca por caracteres sob a rede com o objetivo de encontrar algum conteúdo relevante </p>
+
+### Ferramentas utilizadas
+
+<p> Shell script e freechains</p>
+
+### Para testar a aplicação uma simulação foi preparada
 O ínicio da rede com 5 postagens, uma postagem vai ser descartada e o usuário leitor vai fazer uma busca pela rede por palavra chave <br />
 O Administrador vai validar as 5 postagens com o like, assim garantindo reps para os usuários<br />
 Um usuário sem reps tentará fazer uma postagem, mas não entrará na rede por conta do freechains <br />
