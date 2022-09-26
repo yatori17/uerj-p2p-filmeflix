@@ -15,6 +15,10 @@ Após preencher o repositŕio com os dados disponíveis para a utilização, ap�
 
 <p> A aplicação rodará sobre o freechains, ou seja, ela usará o freechains como seu repositório. Para essa implementação, apenas o comando findinfilmeflix foi implementado. O objetivo dele é fazer uma busca por caracteres sob a rede com o objetivo de encontrar algum conteúdo relevante </p>
 
+### O que não foi implementado
+
+<p> A aplicação por fora do freechains </p>
+
 ### Ferramentas utilizadas
 
 <p> Shell script e freechains</p>
