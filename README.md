@@ -16,6 +16,9 @@ A ideia é que o administrador perca seu poder na distribuição de informação
 
 # O que será Implementado? 
 
+Para reproduzir a aplicação, basta rodar o comando ./filmeflix.sh para dar inicio na rede e após isso rodar o arquivo ./findFilmeFlix.sh que tem como objetivo simular o comando implementado da rede! <br />
+OBS.: O resultado do comando se encontra nesse repositório <br />
+
 O ínicio da rede com 5 postagens, uma postagem vai ser descartada e o usuário leitor vai fazer uma busca pela rede por palavra chave <br />
 O Administrador vai validar as 5 postagens com o like, assim garantindo reps para os usuários<br />
 Um usuário sem reps tentará fazer uma postagem, mas não entrará na rede por conta do freechains <br />
